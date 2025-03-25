@@ -1,0 +1,12 @@
+public
+ -> temp
+    -> .gitkeep
+.gitkeep is a placeholder file used in Git to track empty directories. Git doesn't track empty folders, so adding a 
+.gitkeep file ensures that the folder is included in version control.
+
+With this setup, Git will track the temp directory (even though it’s empty) because of the .gitkeep file inside 
+it. When you commit and push your changes, the temp directory will be included in your Git repository.
+
+.env: to keep secure the variables 
+
+"type": "module" -> now we can use import instead of require
